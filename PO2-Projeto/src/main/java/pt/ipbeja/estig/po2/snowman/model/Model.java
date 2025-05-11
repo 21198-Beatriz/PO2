@@ -1,4 +1,4 @@
-package pt.ipbeja.estig.po2.app.model;
+package pt.ipbeja.estig.po2.snowman.model;
 
 public class Model {
 

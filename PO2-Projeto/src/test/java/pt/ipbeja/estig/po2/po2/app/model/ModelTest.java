@@ -2,7 +2,7 @@ package pt.ipbeja.estig.po2.po2.app.model;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import pt.ipbeja.estig.po2.app.model.Model;
+import pt.ipbeja.estig.po2.snowman.model.Model;
 
 import static org.junit.jupiter.api.Assertions.*;
 

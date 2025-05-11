@@ -1,4 +1,4 @@
-package pt.ipbeja.estig.po2.app.ui;
+package pt.ipbeja.estig.po2.snowman.gui;
 
 import javafx.application.Application;
 import javafx.scene.Scene;
@@ -7,7 +7,7 @@ import javafx.scene.control.TextInputDialog;
 import javafx.scene.layout.StackPane;
 import javafx.scene.text.Font;
 import javafx.stage.Stage;
-import pt.ipbeja.estig.po2.app.model.Model;
+import pt.ipbeja.estig.po2.snowman.model.Model;
 
 import java.util.Optional;
 
