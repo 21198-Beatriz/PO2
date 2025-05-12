@@ -1,6 +1,5 @@
 package pt.ipbeja.estig.po2.snowman.gui;
 
-import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextInputDialog;
@@ -11,7 +10,7 @@ import pt.ipbeja.estig.po2.snowman.model.Model;
 
 import java.util.Optional;
 
-public class HelloApplication extends Application {
+public class Application extends javafx.application.Application {
     @Override
     public void start(Stage stage) {
 
@@ -26,7 +25,7 @@ public class HelloApplication extends Application {
         StackPane pane = new StackPane(greetingLabel);
 
         Scene scene = new Scene(pane, 800, 600);
-        stage.setTitle(HelloApplication.class.getSimpleName());
+        stage.setTitle(Application.class.getSimpleName());
         stage.setScene(scene);
         stage.show();
     }
